@@ -13,3 +13,7 @@ while(count <= number)
     Console.Write(count + " ");
     count = count + 1;
 }
+if (number < 0)
+{
+    Console.WriteLine("Укажите положительное число!");
+}
